@@ -4,17 +4,31 @@
     "slug": "FindMe",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "icon": "./assets/images/logo.png",
+    "scheme": "findmeapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shashika.findme",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to upload profile photos.",
+        "NSCameraUsageDescription": "This app needs access to your camera to upload profile photos."
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.shashika.findme",
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi": true,
+      "permissions": ["NOTIFICATIONS"],
+      "notification": {
+        "icon": "./assets/images/logo.png"
       }
     },
     "web": {
@@ -24,6 +38,7 @@
     },
     "plugins": [
       "expo-router",
+      "@react-native-google-signin/google-signin",
       [
         "expo-splash-screen",
         {
@@ -36,6 +51,26 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "google": {
+        "expoClientId": "574429497440-rjfahk7s9a0i7t88m56qtdpe1dph20ij.apps.googleusercontent.com",
+        "androidClientId": "574429497440-0cm76v4invf9t8cuaqvmve0ge3ak5ahg.apps.googleusercontent.com", 
+        "iosClientId": "YOUR_IOS_CLIENT_ID.apps.googleusercontent.com"
+      },
+      "googleClientId": "574429497440-rjfahk7s9a0i7t88m56qtdpe1dph20ij.apps.googleusercontent.com"
+    },
+    "router": {
+      "origin": false
+    },
+    "eas": {
+      "projectId": "81d2d2b8-32e2-44a1-914c-acba4ba60b3a"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/81d2d2b8-32e2-44a1-914c-acba4ba60b3a"
     }
   }
 }

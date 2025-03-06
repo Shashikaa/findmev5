@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>574429497440-opg0e8erjlh1n4tlbp3k6ssbg9n6ilj2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.574429497440-opg0e8erjlh1n4tlbp3k6ssbg9n6ilj2</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>574429497440-2lsavforjob92ljuga7oafk5fl7spodl.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDHBYTzeJsVQkBisw7QNH-8N2uxgVlQ1i8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>574429497440</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.shashika.findme</string>
+	<key>PROJECT_ID</key>
+	<string>poss-37a94</string>
+	<key>STORAGE_BUCKET</key>
+	<string>poss-37a94.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:574429497440:ios:d7ee44d11dcdea00965b05</string>
+	<key>DATABASE_URL</key>
+	<string>https://poss-37a94-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

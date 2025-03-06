@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "574429497440",
+    "firebase_url": "https://poss-37a94-default-rtdb.firebaseio.com",
+    "project_id": "poss-37a94",
+    "storage_bucket": "poss-37a94.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574429497440:android:be304c08c2b8ed90965b05",
+        "android_client_info": {
+          "package_name": "com.shashika.findme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574429497440-0cm76v4invf9t8cuaqvmve0ge3ak5ahg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shashika.findme",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "574429497440-325bsb63iuidr956nmpdoiajn37p1a9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNZkwOJfsYnC_J5L9RPGSbo3v-xOq4D3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574429497440-325bsb63iuidr956nmpdoiajn37p1a9e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "574429497440-opg0e8erjlh1n4tlbp3k6ssbg9n6ilj2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.shashika.findme"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
